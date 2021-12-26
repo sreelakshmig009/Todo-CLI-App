@@ -14,7 +14,7 @@ $ ./task report               # Statistics"""
     sys.stdout.buffer.write(help_string.encode('utf8'))
 
 
-# creating a text file to store the tasks to
+# creating a text file to store the ongoing tasks 
 
 # function for adding a todo task in our list
 def add(priority, task):
@@ -44,7 +44,7 @@ def ls():
     except Exception as e:
         raise e
 
-
+# creating a text file to store the ongoing tasks 
 
 # function to complete a task
 def done(no):
