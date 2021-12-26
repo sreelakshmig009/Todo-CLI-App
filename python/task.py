@@ -23,7 +23,7 @@ def add(priority, task):
     f.write("\n")
     f.close()
     task = '"'+task+'"'
-    print(f"Added task: {task} of priority {priority}")
+    print(f"Added task: {task} with priority {priority}")
 
 
 # function to list all the todo items with their priorities
@@ -148,7 +148,7 @@ def nec():
             c = c+1
 
     except:
-        sys.stdout.buffer.write("Woohoo,no pending tasks!".encode('utf8'))
+        sys.stdout.buffer.write("There are no pending tasks!".encode('utf8'))
 
 
 # Driver code

@@ -13,6 +13,7 @@ beforeEach(() => {
 });
 
 let tasksTxtCli = (...args) => [`${__dirname}/task`, ...args].join(" ");
+//let tasksTxtCli = (...args) => [`"${__dirname}"/task`, ...args].join(" ");
 
 let usage = `Usage :-
 $ ./task add 2 hello world    # Add a new item with priority 2 and text "hello world" to the list
